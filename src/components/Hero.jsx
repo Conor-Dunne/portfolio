@@ -19,7 +19,7 @@ function Hero() {
         </p>
       </div>
       <div>
-        <button className="text-accentColor border-accentColor border p-2 mt-12 rounded hover:bg-accentOpac">
+        <button className="text-accentColor border-accentColor border py-2 px-4 mt-12 rounded hover:bg-accentOpac">
             Check out my work</button>
       </div>
     </div>
