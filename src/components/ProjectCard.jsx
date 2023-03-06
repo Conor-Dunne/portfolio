@@ -8,7 +8,7 @@ function ProjectCard({project}) {
             <div>
                 <h2 className="text-2xl text-slate-300 font-bold">{name}</h2>
             </div>
-            <div className="h-16 text-slate-200 bg-secondaryColor rounded">
+            <div className="h-16 p-3 text-sm text-slate-300 bg-secondaryColor rounded">
                 {description}
             </div>
             <div>
