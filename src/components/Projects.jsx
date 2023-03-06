@@ -4,11 +4,11 @@ import projects from '../projectsData'
 function Projects() {
   return (
     <div className='py-9'>
-      <div className='title'>
+      <div className='title mb-5'>
       <h1>Some things I built...</h1>
       <hr/>
       </div>
-     <div className='flex gap-3'>
+     <div className='flex flex-wrap place-content-around gap-5'>
      {projects.map( (project) => (
         
         <div>
@@ -16,7 +16,7 @@ function Projects() {
             {project.name}
         </div>))}
      </div>
-    </div>
+     </div>
   )
 }
 
