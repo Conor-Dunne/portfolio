@@ -12,7 +12,7 @@ const projects = [
     {
         name: "Weather web app",
         tools: "Html, JavaScript, Css",
-        description: "A simple weather app using https://openweathermap.org/api",
+        description: "A simple weather app using the openweather api.",
         image: "src/assets/weather_app.png",
         live: "https://conor-dunne.github.io/Weather-App/",
         code: "https://github.com/Conor-Dunne/Weather-App",
