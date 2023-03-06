@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       backgroundColor: {
         mainColor: '#0a192f',
-        secondaryColor: '#F0F0F0',
+        secondaryColor: '#112240',
         blackOverlay: 'rgba(0, 0 ,0 ,0.7)',
         
       },

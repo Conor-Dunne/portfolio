@@ -1,5 +1,6 @@
 import React from 'react'
 import projects from '../projectsData'
+import ProjectCard from './ProjectCard'
 
 function Projects() {
   return (
@@ -9,12 +10,7 @@ function Projects() {
       <hr/>
       </div>
      <div className='flex flex-wrap place-content-around gap-5'>
-     {projects.map( (project) => (
-        
-        <div>
-            <img src={project.image} width="300px"/>
-            {project.name}
-        </div>))}
+     {projects.map( (project) => <ProjectCard project={project} /> )}
      </div>
      </div>
   )
