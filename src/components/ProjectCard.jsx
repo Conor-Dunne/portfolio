@@ -4,7 +4,7 @@ function ProjectCard({project}) {
     const {name, tools, description,image, live, code } = project;
     return (
         
-        <div className="flex flex-col gap-2 p-2 max-w-xs shadow-black shadow-sm">
+        <div className="flex flex-col gap-2 p-2 max-w-xs shadow-black shadow-sm hover:scale-110 transition-all ease-in-out cursor-pointer">
             <Fade cascade>
             <img src={image} className="rounded" />
             <div>
