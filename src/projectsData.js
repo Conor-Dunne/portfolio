@@ -3,7 +3,7 @@
 const projects = [
     {
         name: "Resume Builder web app ",
-        tools: "Html, JavaScript, Css",
+        tools: "React, JavaScript, CSS",
         description: "Uses javaScript for DOM manipulation.",
         image: "src/assets/cv_builder.png",
         live: "https://conor-dunne.github.io/etch-a-sketch-project/",
@@ -11,8 +11,8 @@ const projects = [
     },
     {
         name: "Weather web app",
-        tools: "Html, JavaScript, Css",
-        description: "A simple weather app using the openweather api.",
+        tools: "JavaScript, CSS, OpenWeather API",
+        description: "A simple weather app using the Openweather API.",
         image: "src/assets/weather_app.png",
         live: "https://conor-dunne.github.io/Weather-App/",
         code: "https://github.com/Conor-Dunne/Weather-App",
