@@ -16,7 +16,39 @@ const projects = [
         image: "src/assets/weather_app.png",
         live: "https://conor-dunne.github.io/Weather-App/",
         code: "https://github.com/Conor-Dunne/Weather-App",
-    },  
+    },
+    {
+    name: "React Shopping Cart",
+    tools: "React, JavaScript, CSS, API",
+    description: "A shopping cart demo website built with React",
+    image: "src/assets/shoppin_cart.PNG",
+    live: "",
+    code: "",
+},   
+{
+    name: "React Kanji Memory Card Game",
+    tools: "React, JavaScript, CSS",
+    description: "React, JavaScript, CSS,",
+    image: "src/assets/Kanji_cards.PNG",
+    live: "",
+    code: "",
+}, 
+{
+    name: "Javascript Tic-Tac-Toe",
+    tools: "Javascript, HTML, CSS",
+    description: "A retro looking tic-tac-toe game built with vanilla Javascript.",
+    image: "src/assets/tic-tac-toe.PNG",
+    live: "",
+    code: "",
+}, 
+{
+    name: "Library App",
+    tools: "Javascript, HTML, CSS",
+    description: "A CRUD library app to store a record of all your read and unread books.",
+    image: "src/assets/Library_app.PNG",
+    live: "",
+    code: "",
+}, 
     
 ]
 
