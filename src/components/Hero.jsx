@@ -1,4 +1,9 @@
 import Fade from 'react-reveal/Fade';
+import {
+  AiFillTwitterCircle,
+  AiFillLinkedin,
+  AiFillYoutube,
+} from "react-icons/ai";
 
 function Hero() {
   return (
@@ -21,8 +26,13 @@ function Hero() {
           quas!
         </p>
       </div>
+      <div className="text-2xl flex justify-start gap-16 py-3">
+              <AiFillTwitterCircle />
+              <AiFillLinkedin />
+              <AiFillYoutube />
+            </div>
       <div>
-        <button className="text-accentColor border-accentColor border py-2 px-4 mt-12 rounded hover:bg-accentOpac">
+        <button className="text-accentColor border-accentColor border py-2 px-4 rounded hover:bg-accentOpac">
             Check out my work</button>
       </div>
       </Fade>
