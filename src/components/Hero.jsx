@@ -5,6 +5,8 @@ import {
   AiFillYoutube,
   AiFillGithub,
 } from "react-icons/ai";
+import { ReactSVG } from 'react-svg';
+
 
 function Hero() {
   return (
@@ -27,7 +29,7 @@ function Hero() {
             quas!
           </p>
         </div>
-        <div className="text-2xl flex justify-start gap-16 py-3">
+        <div className=" text-xl flex justify-start gap-14 py-3">
         <a href="https://github.com/Conor-Dunne" target="_blank" rel="noopener noreferrer">
         <AiFillGithub />
       </a>
@@ -52,6 +54,7 @@ function Hero() {
           </button>
         </div>
       </Fade>
+
     </div>
   );
 }
