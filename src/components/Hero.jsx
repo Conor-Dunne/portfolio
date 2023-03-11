@@ -10,7 +10,8 @@ import { ReactSVG } from 'react-svg';
 
 function Hero() {
   return (
-    <div className="flex flex-col justify-start py-9 gap-2 mx-auto h-screen">
+    <div className="flex flex-wrap min-h-screen mb-32 md:flex-nowrap">
+    <div className=" min-h-screen flex flex-col justify-center items-start gap-2 mx-auto md:w-full">
       <Fade left cascade>
         <div>
           <p className="text-accentColor mb-1 mt-8 text-sm tracking-widest">
@@ -55,6 +56,12 @@ function Hero() {
         </div>
       </Fade>
 
+    </div>
+    <Fade right>
+    <div className="flex flex-col justify-center items-center md:items-end w-full">
+      <img className="rounded" src="src\assets\Conor Dunne Profile pic2.jpg" width={"300px"} height={"300px"} />
+    </div>
+    </Fade>
     </div>
   );
 }

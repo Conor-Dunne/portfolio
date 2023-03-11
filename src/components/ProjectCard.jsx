@@ -4,7 +4,7 @@ function ProjectCard({project}) {
     const {name, tools, description,image, live, code } = project;
     return (
         
-        <div className="flex flex-col justify-between gap-2 p-2 max-w-xs tracking-wide bg-secondaryColor shadow-black shadow-sm hover:scale-110 transition-all ease-in-out cursor-pointer">
+        <div className="flex flex-col justify-between gap-2 p-2 max-w-xs tracking-wide bg-secondaryColor shadow-black shadow-sm hover:scale-105 transition-all ease-in-out cursor-pointer">
             <Fade>
             <img src={image} className="rounded" />
             <div>
