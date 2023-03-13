@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade';
 
 function Projects() {
   return (
-    <div className='py-9'>
+    <div name="projects" className='py-9'>
       <div className='title mb-16'>
       <h1 className='text-4xl font-light mb-3'>Some stuff I've built...</h1>
       <hr/>

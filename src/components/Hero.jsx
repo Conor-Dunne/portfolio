@@ -10,7 +10,7 @@ import {
 
 function Hero() {
   return (
-    <div className="flex flex-wrap min-h-screen mb-32 md:flex-nowrap">
+    <div name="top" className="flex flex-wrap min-h-screen mb-32 md:flex-nowrap">
     <div className=" min-h-screen flex flex-col justify-center items-start gap-2 mx-auto md:w-full">
       <Fade left cascade>
         <div>
