@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Header />
-      <div className=" max-w-6xl mx-auto px-5">
+      <div className="max-w-6xl mx-auto px-5">
         <Hero />
         <Projects />
         <About />

@@ -11,19 +11,19 @@ import { Link } from "react-scroll";
 
 function Hero() {
   return (
-    <div name="top" className="flex flex-wrap min-h-screen mb-32 md:flex-nowrap">
-    <div className=" min-h-screen flex flex-col justify-center items-start gap-2 mx-auto md:w-full">
+    <div name="top" className="flex flex-wrap h-screen mb-32 gap-20 md:flex-nowrap">
+    <div className="flex flex-col h-screen justify-center items-start gap-2 mx-auto md:w-full">
       <Fade left cascade>
         <div>
-          <p className="text-accentColor mb-1 mt-8 text-sm tracking-widest">
+          <p className="text-accentColor text-sm tracking-widest">
             Hi, I'm...
           </p>
         </div>
         <div>
-          <h1 className="text-6xl text-slate-300 font-bold">Conor Dunne</h1>
+          <h1 className="text-4xl text-slate-300 font-bold">Conor Dunne</h1>
         </div>
         <div>
-          <h1 className="text-6xl font-bold">I build things...</h1>
+          <h1 className="text-4xl font-bold">I build things...</h1>
         </div>
         <div>
           <p className="max-w-md mt-3">

@@ -32,7 +32,7 @@ function Header() {
   return (
     <header
       id="header"
-      className="bg-mainColor z-10 shadow-sm fixed flex justify-between items-center w-full px-6 py-4 text-accentColor"
+      className="bg-mainColor z-10 shadow-sm sticky top-0 flex justify-between items-center w-full px-6 py-4 text-accentColor"
     >
       <Link
               activeClass="active"
