@@ -1,11 +1,33 @@
 import { FaBars, FaTimes } from "react-icons/fa";
 import React, { useState } from "react";
 import Fade from "react-reveal/Fade";
-import NavLinks from "./NavLinks";
+import { Link } from "react-scroll";
 
 function Header() {
   const [nav, setNav] = useState(false);
-  const closeNav = setNav(!nav)
+
+  const NavLinks = [
+    {
+      title: "TOP",
+      path: "top",
+      key: 1,
+    },
+    {
+      title: "PROJECTS",
+      path: "projects",
+      key: 2,
+    },
+    {
+      title: "ABOUT",
+      path: "about",
+      key: 3,
+    },
+    {
+      title: "CONTACT",
+      path: "contact",
+      key: 4,
+    },
+  ];
 
   return (
     <header
@@ -17,7 +39,18 @@ function Header() {
       </div>
       <div className="gap-9 items-center hidden md:flex">
         <ul className="flex gap-9 text-md font-thin">
-          <NavLinks />
+          {NavLinks.map((link) => (
+            <Link
+              activeClass="active"
+              to={link.path}
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              <li>{link.title}</li>
+            </Link>
+          ))}
         </ul>
         <a
           href="src\assets\CONOR DUNNE Resume 2021.pdf"
@@ -38,11 +71,23 @@ function Header() {
       {nav && (
         <div className="flex flex-col justify-center items-center absolute right-0 top-0 z-0 w-full h-screen gap-9 backdrop-blur-md">
           <Fade right>
-            <div onClick={() => setNav(!nav)} className=" flex flex-col justify-center items-center gap-9 bg-mainColor w-4/5 h-full absolute right-0">
-              <ul
-                className="flex flex-col gap-9 text-md font-thin"
-              >
-                <NavLinks  />
+            <div
+              onClick={() => setNav(!nav)}
+              className=" flex flex-col justify-center items-center gap-9 bg-mainColor w-4/5 h-full absolute right-0"
+            >
+              <ul className="flex flex-col gap-9 text-md font-thin">
+                {NavLinks.map((link) => (
+                  <Link
+                    activeClass="active"
+                    to={link.path}
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                  >
+                    <li onClick={() => setNav(!nav)}>{link.title}</li>
+                  </Link>
+                ))}
               </ul>
               <a
                 href="src\assets\CONOR DUNNE Resume 2021.pdf"
