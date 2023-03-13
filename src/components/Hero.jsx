@@ -11,8 +11,8 @@ import { Link } from "react-scroll";
 
 function Hero() {
   return (
-    <div name="top" className="flex flex-wrap gap-28 mt-10 md:flex-nowrap md:h-screen md:-mt-16">
-    <div className="flex flex-col justify-center items-start gap-2 mx-auto md:w-full">
+    <div name="top" className="flex flex-wrap w-4/5 mx-auto gap-28 mt-10 md:flex-nowrap md:h-screen md:-mt-16">
+    <div className="flex flex-col justify-center items-start gap-2 md:w-full">
       <Fade left cascade>
         <div>
           <p className="text-accentColor text-sm tracking-widest">
