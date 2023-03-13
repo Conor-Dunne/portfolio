@@ -1,4 +1,5 @@
 import Fade from 'react-reveal/Fade';
+import {FaGithub ,FaExternalLinkAlt} from "react-icons/fa"
 
 function ProjectCard({project}) {
     const {name, tools, description,image, live, code } = project;
@@ -16,8 +17,9 @@ function ProjectCard({project}) {
             <div className="font-mono text-accentColor">
                 {tools}
             </div>
-            <div>
-                ##
+            <div className='flex gap-5 justify-end'>
+                <FaGithub />
+                <FaExternalLinkAlt />
             </div>
             </Fade>
         </div>
