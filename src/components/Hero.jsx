@@ -5,7 +5,7 @@ import {
   AiFillYoutube,
   AiFillGithub,
 } from "react-icons/ai";
-import { ReactSVG } from 'react-svg';
+
 
 
 function Hero() {
