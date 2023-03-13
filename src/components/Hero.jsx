@@ -69,7 +69,7 @@ function Hero() {
     </div>
     <Fade>
     <div className="flex flex-col justify-center items-center md:items-end w-full">
-      <img className="rounded" src="src\assets\Conor Dunne Profile pic2.jpg" width={"300px"} height={"300px"} />
+      <img className="rounded" src="assets\Conor Dunne Profile pic2.jpg" width={"300px"} height={"300px"} />
     </div>
     </Fade>
     </div>
