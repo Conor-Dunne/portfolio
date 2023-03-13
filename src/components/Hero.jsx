@@ -5,6 +5,7 @@ import {
   AiFillYoutube,
   AiFillGithub,
 } from "react-icons/ai";
+import { Link } from "react-scroll";
 
 
 
@@ -50,14 +51,23 @@ function Hero() {
       </a>
         </div>
         <div>
+        <Link
+              activeClass="active"
+              to="projects"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
           <button className="text-accentColor border-accentColor border py-2 px-4 rounded hover:bg-accentOpac">
             Check out my work
           </button>
+          </Link>
         </div>
       </Fade>
 
     </div>
-    <Fade right>
+    <Fade>
     <div className="flex flex-col justify-center items-center md:items-end w-full">
       <img className="rounded" src="src\assets\Conor Dunne Profile pic2.jpg" width={"300px"} height={"300px"} />
     </div>

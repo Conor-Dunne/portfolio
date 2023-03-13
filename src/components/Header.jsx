@@ -34,9 +34,18 @@ function Header() {
       id="header"
       className="bg-mainColor z-10 shadow-sm fixed flex justify-between items-center w-full px-6 py-4 text-accentColor"
     >
-      <div className="flex items-center justify-center w-10">
+      <Link
+              activeClass="active"
+              to="top"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+      <div className="flex items-center justify-center w-10 cursor-pointer">
         <h1 className="text-3xl">C .</h1>
       </div>
+      </Link>
       <div className="gap-9 items-center hidden md:flex">
         <ul className="flex gap-9 text-md font-thin">
           {NavLinks.map((link) => (
