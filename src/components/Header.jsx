@@ -62,7 +62,7 @@ function Header() {
           ))}
         </ul>
         <a
-          href="src\assets\CONOR DUNNE Resume 2021.pdf"
+          href="assets\CONOR DUNNE Resume 2021.pdf"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -99,7 +99,7 @@ function Header() {
                 ))}
               </ul>
               <a
-                href="src\assets\CONOR DUNNE Resume 2021.pdf"
+                href="assets\CONOR DUNNE Resume 2021.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
