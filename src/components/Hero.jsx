@@ -20,10 +20,10 @@ function Hero() {
           </p>
         </div>
         <div>
-          <h1 className="text-4xl text-slate-300 font-bold">Conor Dunne</h1>
+          <h1 className="text-4xl text-slate-300 font-bold md:text-6xl">Conor Dunne</h1>
         </div>
         <div>
-          <h1 className="text-4xl font-bold">Building things one pixel at a time</h1>
+          <h1 className="text-4xl font-bold md:text-6xl">Building things one pixel at a time</h1>
         </div>
         <div>
           <p className="max-w-md mt-3">
@@ -66,11 +66,6 @@ function Hero() {
       </Fade>
 
     </div>
-    <Fade>
-    <div className="flex flex-col justify-center items-center md:items-end w-full">
-      <img className="rounded" src="assets\Conor Dunne Profile pic2.jpg" width={"300px"} height={"300px"} />
-    </div>
-    </Fade>
     </div>
   );
 }

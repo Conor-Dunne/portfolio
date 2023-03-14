@@ -7,7 +7,7 @@ function Projects() {
   return (
     <div name="projects" className='py-9'>
       <div className='title mb-16'>
-      <h1 className='text-4xl font-light mb-3'>Some stuff I've built...</h1>
+      <h1 className='text-3xl font-light mb-3'>Some stuff I've built...</h1>
       <hr/>
       </div>
      <div className='flex flex-wrap place-content-around gap-5'>
