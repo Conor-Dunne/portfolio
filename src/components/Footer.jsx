@@ -27,7 +27,7 @@ const Footer = () => {
         <AiFillLinkedin />
       </a>
         </div>
-        <div className=" text-xs">
+        <div className="text-xs text-center">
         <p>Designed & Built by Conor Dunne</p>
         <p>Inspired by brittanychiang.com</p>
         </div>
