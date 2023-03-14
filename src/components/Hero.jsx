@@ -11,7 +11,7 @@ import { Link } from "react-scroll";
 
 function Hero() {
   return (
-    <div name="top" className="flex flex-wrap mx-auto gap-28 mt-10 md:flex-nowrap md:h-screen md:-mt-16">
+    <div name="top" className="flex justify-center flex-wrap mx-auto gap-28 mt-10 md:flex-nowrap md:h-screen md:-mt-16 md:gap-0 md:px-6">
     <div className="flex flex-col justify-center items-start gap-2 md:w-full">
       <Fade left cascade>
         <div>
@@ -23,12 +23,11 @@ function Hero() {
           <h1 className="text-4xl text-slate-300 font-bold">Conor Dunne</h1>
         </div>
         <div>
-          <h1 className="text-4xl font-bold">I build things...</h1>
+          <h1 className="text-4xl font-bold">Building things one pixel at a time</h1>
         </div>
         <div>
           <p className="max-w-md mt-3">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat,
-            quas!
+          Passionate about coding and building with a dedication for learning and continuously improving my skills.
           </p>
         </div>
         <div className=" text-xl flex justify-start gap-14 py-3">
