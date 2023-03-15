@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Header />
-      <div className="flex flex-col gap-24 max-w-6xl mx-auto px-5">
+      <div className="flex flex-col gap-24 max-w-6xl mx-auto px-5 bg-mainColor">
         <Hero />
         <Projects />
         <About />
