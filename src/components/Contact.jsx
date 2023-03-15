@@ -1,7 +1,9 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
 
 const Contact = () => {
   return (
+    <Fade >
     <div name="contact" className="flex flex-col items-center">
       <div className="title mb-16">
         <h1 className="text-3xl font-light mb-3">Contact</h1>
@@ -15,6 +17,7 @@ const Contact = () => {
       </button>
       </div>
     </div>
+    </Fade>
   );
 };
 

@@ -4,9 +4,12 @@ import {
     AiFillYoutube,
     AiFillGithub,
   } from "react-icons/ai";
+  import Fade from "react-reveal/Fade";
+
 
 const Footer = () => {
   return (
+    <Fade>
     <div className="flex flex-col justify-center items-center w-full mb-7">
       <div className=" text-xl flex justify-start gap-14 py-10">
         <a href="https://github.com/Conor-Dunne" target="_blank" rel="noopener noreferrer">
@@ -32,6 +35,7 @@ const Footer = () => {
         <p>Inspired by brittanychiang.com</p>
         </div>
     </div>
+    </Fade>
   )
 }
 
