@@ -15,8 +15,8 @@ module.exports = {
       },
       colors: {
         'mainColor': '#0a192f',
-        'accentColor': '#64ffda',
-        'accentOpac': '#64ffda14',
+        'accentColor': '#fe8cfd ',
+        'accentOpac': '#fe8cfd14',
       },
       screens: {
         'sm': '640px',
