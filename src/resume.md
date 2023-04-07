@@ -1,16 +1,12 @@
-<center>**CONOR DUNNE**</center>
+<h1 align="center">CONOR DUNNE</h1>
 
 
-<center>
+<div style="text-align:center;">
 
 
 
 ![alt_text](images/image1.png "image_tooltip")
-[conordunne@outlook.i](mailto:conordunne@outlook.ie)e  
-
-
-
-![alt_text](images/image2.png "image_tooltip")
+[conordunne@outlook.i](mailto:conordunne@outlook.ie)e   ![alt_text](images/image2.png "image_tooltip")
 080-9994-0325  
 
 
@@ -30,7 +26,7 @@ conor.dunne831
 ![alt_text](images/image7.png "image_tooltip")
 [https://github.com/Conor-Dunne](https://github.com/Conor-Dunne)  
 
-</center>
+</div>
 
 **SKILLS**
 
