@@ -61,15 +61,6 @@ function Header() {
             </Link>
           ))}
         </ul>
-        <a
-          href="assets\example_resume.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <button className=" text-mainColor font-semibold bg-accentColor py-2 px-4 rounded">
-            Resume
-          </button>
-        </a>
       </div>
       <div
         onClick={() => setNav(!nav)}
