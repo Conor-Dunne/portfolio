@@ -47,7 +47,7 @@ function Header() {
       </div>
       </Link>
       <div className="gap-9 items-center hidden md:flex">
-        <ul className="flex gap-9 text-md font-thin">
+        <ul className="flex gap-9 text-md font-extralight">
           {NavLinks.map((link) => (
             <Link
               activeClass="active"
@@ -68,6 +68,7 @@ function Header() {
       >
         {nav ? <FaTimes /> : <FaBars />}
       </div>
+      {/* Mobile side menu */}
       {nav && (
         <div className="flex flex-col justify-center items-center absolute right-0 top-0 z-0 w-full h-screen gap-9 backdrop-blur-md">
           <Fade right>
@@ -75,7 +76,7 @@ function Header() {
               onClick={() => setNav(!nav)}
               className=" flex flex-col justify-center items-center gap-9 bg-mainColor w-4/5 h-full absolute right-0"
             >
-              <ul className="flex flex-col gap-9 text-md font-thin">
+              <ul className="flex flex-col gap-9 text-md font-extralight">
                 {NavLinks.map((link) => (
                   <Link
                     activeClass="active"
@@ -89,15 +90,6 @@ function Header() {
                   </Link>
                 ))}
               </ul>
-              <a
-                href="assets\example_resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button className=" text-mainColor text-md font-semibold bg-accentColor py-2 px-4 rounded">
-                  Resume
-                </button>
-              </a>
             </div>
           </Fade>
         </div>
