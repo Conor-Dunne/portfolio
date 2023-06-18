@@ -8,4 +8,4 @@ My portfolio site
 ## Built with
 
 - [React](https://reactjs.org/)
-- [Tailwind CSS] (https://tailwindcss.com/)
+- [Tailwind](https://tailwindcss.com/)
