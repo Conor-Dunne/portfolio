@@ -2,6 +2,14 @@
 
 const projects = [
     {
+        name: "Secret Member's Club",
+        tools: "Node.js, Express.js, MongoDB, bcrypt, Passport.js",
+        description: "This project focuses on implementing authentication and database management skills",
+        image: "assets/Members_club.jpg",
+        live: "https://members-only-club-production.up.railway.app/",
+        code: "https://github.com/Conor-Dunne/Members-Only-Club",
+    },
+    {
         name: "Resume Builder web app ",
         tools: "React, JavaScript, CSS",
         description: "Uses javaScript for DOM manipulation.",
