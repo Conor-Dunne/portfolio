@@ -1,5 +1,6 @@
 import Fade from "react-reveal/Fade";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 function ProjectCard({ project }) {
   const { name, tools, description, image, live, code } = project;
@@ -7,7 +8,7 @@ function ProjectCard({ project }) {
     <div className="flex flex-col justify-between gap-2 p-2 max-w-xs tracking-wide bg-secondaryColor shadow-black shadow-sm hover:scale-105 transition-all ease-in-out">
       <Fade>
         <a href={live} target="_blank" rel="noopener noreferrer">
-          <img src={image} className="rounded" />
+          <LazyLoadImage src={image} className="rounded"/>
           <div>
             <h2 className="text-2xl text-slate-300 font-bold">{name}</h2>
           </div>
@@ -23,7 +24,7 @@ function ProjectCard({ project }) {
           </a>
         </div>
       </Fade>
-    </div>
+    </div>  
   );
 }
 
