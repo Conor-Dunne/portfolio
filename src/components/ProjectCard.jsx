@@ -8,7 +8,7 @@ function ProjectCard({ project }) {
     <div className="flex flex-col justify-between gap-2 p-2 max-w-xs tracking-wide bg-secondaryColor shadow-black shadow-sm hover:scale-105 transition-all ease-in-out">
       <Fade>
         <a href={live} target="_blank" rel="noopener noreferrer">
-          <LazyLoadImage src={image} className="rounded"/>
+          <img src={image} className="rounded" width="300px" height="140px"/>
           <div>
             <h2 className="text-2xl text-slate-300 font-bold">{name}</h2>
           </div>
