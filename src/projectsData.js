@@ -2,12 +2,12 @@
 
 const projects = [
     {
-        name: "Secret Member's Club",
-        tools: "Node.js, Express.js, MongoDB, bcrypt, Passport.js",
-        description: "This project focuses on implementing authentication and database management skills",
-        image: "assets/Members_club.jpg",
-        live: "https://members-only-club-production.up.railway.app/",
-        code: "https://github.com/Conor-Dunne/Members-Only-Club",
+        name: "Eigo-Site",
+        tools: "Nextjs, Typescript, Prisma/MongoDB, Tailwind",
+        description: "An English reading app with vocabulary translations and example on click. Also had a full CMS for admins.",
+        image: "assets/eigo-site.PNG",
+        live: "https://eigo-site.vercel.app/en",
+        code: "https://github.com/Conor-Dunne/eigo-site",
     },
     {
         name: "Resume Builder web app ",
