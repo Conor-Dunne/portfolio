@@ -4,7 +4,7 @@ const projects = [
     {
         name: "Eigo-Site",
         tools: "Nextjs, Typescript, Prisma/MongoDB, Tailwind",
-        description: "An English reading app with vocabulary translations and example on click. Also had a full CMS for admins.",
+        description: "An English reading app with vocabulary translations and example on click. Also has a full CMS for CRUD operations.",
         image: "assets/eigo-site.webp",
         live: "https://eigo-site.vercel.app/en",
         code: "https://github.com/Conor-Dunne/eigo-site",
